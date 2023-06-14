@@ -1,0 +1,12 @@
+   0 vi /tmp/file
+   1 clear
+   2 df- h | head -3 >> /tmp/file
+   3 df -h | head -3 >> /tmp/file
+   4 cat /tmp/file
+   5 chmod g+w /tmp/file
+   6 ls -la /tmp
+   7 chmod u-r /tmp/file
+   8 ls -la /tmp
+   9 chmod go+x /tmp/file
+  10 ls -la /tmp
+  11 history > history.txt
